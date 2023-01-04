@@ -7,7 +7,7 @@ import {data} from "./data"
 
 function App() {
    const [product,setProduct] = useState(0);
-   const {photo,name,country,description,fabric,price} = data [product];
+   const {photo,name,country,description,fabric,price} = data[product];
 
    const nextItem = () => {
      setProduct ((product =>{
