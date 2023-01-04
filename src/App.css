@@ -1,32 +1,55 @@
-.App {
-  text-align: center;
+.logo{
+  display: flex;
+  justify-content: center;
+ 
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  background-color: #a05b49;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.price{
+background-color:   #f7f7f7;
+padding:10px;
+align-items: center;
+border-radius: 10px;
 }
+.description{
+  width:600px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+ 
+}
+h1{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+}
+h2{
+  color:   #f7f7f7;
+}
+button {
+padding:15px;
+font-family: 'Great Vibes', cursive;
+background-color: #a05b49;
+color:#f7f7f7;
+font-size: 20px;
+border:none
+
+}
+.footer{
+  display: flex;
+  justify-content: flex-start;
+}
+.beauty{
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
 
 @keyframes App-logo-spin {
   from {
